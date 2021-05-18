@@ -1,4 +1,3 @@
 export function App () {
-  throw new Error('Erro qualquer');
-  
+  return <h1>Hello ReactJS</h1>
 }
