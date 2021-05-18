@@ -15,6 +15,10 @@ module.exports = {
     extensions: [".js", ".jsx"],
   },
 
+  devServer: {
+    contentBase: path.resolve(__dirname, 'plubic'),
+  },
+
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
