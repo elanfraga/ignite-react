@@ -19,8 +19,8 @@ createServer({
         }
       ]
     })
-  }}
-)
+  }
+})
 
 ReactDOM.render(
   <React.StrictMode>
